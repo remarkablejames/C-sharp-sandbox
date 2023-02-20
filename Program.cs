@@ -5,9 +5,10 @@ class Program
 {
     static void Main()
     {
-        while (true)
+        string name = "John";
+        foreach (char c in name)
         {
-            Console.WriteLine("Hello World!");
+            Console.Write(c);
         }
 
     }
