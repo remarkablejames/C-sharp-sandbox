@@ -5,8 +5,11 @@ class Program
 {
     static void Main()
     {
-        Test test = new Test("Test");
-        Console.WriteLine(test.Name);
+        while (true)
+        {
+            Console.WriteLine("Hello World!");
+        }
+
     }
 }
 
