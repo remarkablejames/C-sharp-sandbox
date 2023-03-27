@@ -1,8 +1,19 @@
 ﻿Console.WriteLine("Welcome to the C# class!");
 
-// DateTime today = DateTime.Now;
-// Console.WriteLine("Today is " + today.ToString("d"));
+// functions
 
-const string name = "James";
+// void add(int a, int b)
+// {
+//     Console.WriteLine("a = {0}, b = {1}", a, b);
+// }
 
-Console.WriteLine($"Hello, {name}! It's a pleasure to meet you!");
+// add(b: 1, a: 100);
+
+
+(int a, int b) add(int a, int b)
+{
+    return (a, b);
+}
+
+var (a, b) = add(1, 2);
+Console.WriteLine("a = {0}, b = {1}", a, b);
