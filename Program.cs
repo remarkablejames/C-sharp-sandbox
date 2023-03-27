@@ -1,16 +1,6 @@
-﻿using System;
+﻿Console.WriteLine("Enter your name: ");
 
+string name = Console.ReadLine() ?? "John Doe";
 
-class Program
-{
-    static void Main()
-    {
-        string name = "John";
-        foreach (char c in name)
-        {
-            Console.Write(c);
-        }
-
-    }
-}
+Console.WriteLine("Hello World!" + name);
 
