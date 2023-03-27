@@ -1,6 +1,8 @@
 ﻿Console.WriteLine("Welcome to the C# class!");
 
+// DateTime today = DateTime.Now;
+// Console.WriteLine("Today is " + today.ToString("d"));
 
-int a = 5;
-int b = 10 + a;
-Console.WriteLine(b);
+const string name = "James";
+
+Console.WriteLine($"Hello, {name}! It's a pleasure to meet you!");
