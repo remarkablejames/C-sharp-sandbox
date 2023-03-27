@@ -1,6 +1,6 @@
-﻿Console.WriteLine("Enter your name: ");
+﻿Console.WriteLine("Welcome to the C# class!");
 
-string name = Console.ReadLine() ?? "John Doe";
 
-Console.WriteLine("Hello World!" + name);
-
+int a = 5;
+int b = 10 + a;
+Console.WriteLine(b);
